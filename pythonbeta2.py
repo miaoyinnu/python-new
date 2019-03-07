@@ -97,7 +97,7 @@ def switch():
 def btnStartClick():    # 每次单击“开始”按钮启动新线程
 
         pygame.mixer.init()
-        #print("播放音乐1")
+        print("播放音乐1")
         track = pygame.mixer.music.load("D:\py2\pybns\mp3.mp3")
 
         pygame.mixer.music.play(2,1)
