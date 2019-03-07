@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68e972bb-6bdb-402b-8909-99ea3ace06ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/num1.py" beforeDir="false" afterPath="$PROJECT_DIR$/num1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tk_bb.py" beforeDir="false" afterPath="$PROJECT_DIR$/tk_bb.py" afterDir="false" />
-    </list>
+    <list default="true" id="68e972bb-6bdb-402b-8909-99ea3ace06ed" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pythonbeta2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="155">
+              <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
               <folding>
                 <element signature="e#24#38#0" expanded="true" />
               </folding>
@@ -356,6 +351,14 @@
       <option name="presentableId" value="Default" />
       <updated>1550320008901</updated>
     </task>
+    <task id="LOCAL-00001" summary="删除了print爱心图形">
+      <created>1551964523009</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551964523009</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -368,8 +371,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24894217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -384,11 +386,15 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50070524" side_tool="true" weight="0.61238223" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" sideWeight="0.4992948" visible="true" weight="0.73315364" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" sideWeight="0.4992948" visible="true" weight="0.19272237" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="删除了print爱心图形" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除了print爱心图形" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -402,11 +408,6 @@
           <url>file://$PROJECT_DIR$/pythonbeta2.py</url>
           <line>1</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/pythonbeta2.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -560,8 +561,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pythonbeta2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="155">
+          <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
           <folding>
             <element signature="e#24#38#0" expanded="true" />
           </folding>
