@@ -9,15 +9,6 @@ import time
 import pygame
 print("语音抽签软件 4.51测试版本 2019 3")
 engine = pyttsx3.init()
-engine.say("茂名一中 第三区交通委 提醒您")
-time.sleep(0.5)
-engine.say("道路千万条 ")
-time.sleep(0.1)
-engine.say("学习第一条")
-time.sleep(0.5)
-engine.say("学习不努力 ")
-time.sleep(0.1)
-engine.say("亲人两行泪")
 
 
 engine.runAndWait()
@@ -47,15 +38,7 @@ def closeWindow():
 
 
     root.destroy()
-    engine.say("茂名一中 第三区交通委 提醒您")
-    time.sleep(0.1)
-    engine.say("道路千万条 ")
-    time.sleep(0.1)
-    engine.say("学习第一条")
-    time.sleep(0.5)
-    engine.say("学习不努力")
-    time.sleep(0.1)
-    engine.say("亲人两行泪")
+
 
     engine.runAndWait()
 
@@ -97,11 +80,11 @@ def switch():
 def btnStartClick():    # 每次单击“开始”按钮启动新线程
 
         pygame.mixer.init()
-        print("播放音乐1")
+
         track = pygame.mixer.music.load("D:\py2\pybns\mp3.mp3")
 
         pygame.mixer.music.play(2,1)
-        pygame.mixer.music.set_volume(0.1)
+        pygame.mixer.music.set_volume(0.06)
 
 
 
