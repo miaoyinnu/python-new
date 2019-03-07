@@ -7,7 +7,6 @@ import threading
 import itertools
 import time
 import pygame
-print('\n'.join([''.join([('Love'[(x-y) % len('Love')] if ((x*0.05)**2+(y*0.1)**2-1)**3-(x*0.05)**2*(y*0.1)**3 <= 0 else ' ') for x in range(-30, 30)]) for y in range(30, -30, -1)]))
 print("语音抽签软件 4.51测试版本 2019 3")
 engine = pyttsx3.init()
 engine.say("茂名一中 第三区交通委 提醒您")
