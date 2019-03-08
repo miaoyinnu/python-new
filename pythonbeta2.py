@@ -36,14 +36,10 @@ root.resizable(False, False) # 不允许改变窗口大小
 
 
 
-def closeWindow(): 
+def closeWindow():
+
     root.flag = False
-    pygame.mixer.init()
 
-    track = pygame.mixer.music.load("D:\py2\pybns\lldq.mp3")
-
-    pygame.mixer.music.play(2, 0.5)
-    pygame.mixer.music.set_volume(0.3)
 
 
 
