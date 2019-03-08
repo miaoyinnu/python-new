@@ -9,14 +9,18 @@ import time
 import pygame
 print("语音抽签软件 4.51测试版本 2019 3")
 engine = pyttsx3.init()
-
+engine.say("")
 
 engine.runAndWait()
 condition = "正在运行中"
 
-
 root = tkinter.Tk()
+pygame.mixer.init()
 
+track = pygame.mixer.music.load("D:\py2\pybns\lldq.mp3")
+
+pygame.mixer.music.play(2, 0.5)
+pygame.mixer.music.set_volume(0.3)
 
 
 root.title('语音抽签') # 窗口标题
@@ -34,11 +38,16 @@ root.resizable(False, False) # 不允许改变窗口大小
 
 def closeWindow(): 
     root.flag = False
+    pygame.mixer.init()
+
+    track = pygame.mixer.music.load("D:\py2\pybns\lldq.mp3")
+
+    pygame.mixer.music.play(2, 0.5)
+    pygame.mixer.music.set_volume(0.3)
 
 
 
     root.destroy()
-
 
     engine.runAndWait()
 
